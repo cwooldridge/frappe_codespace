@@ -6,6 +6,8 @@ then
     exit 0
 fi
 
+cd /workspace
+
 rm -rf /workspaces/frappe_codespace/.git 
 
 bench init \
